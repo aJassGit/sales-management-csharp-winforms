@@ -1,0 +1,41 @@
+# Ignorar resultados de build (compilación)
+[Bb]in/
+[Oo]bj/
+
+# Ignorar carpeta de Visual Studio
+.vs/
+
+# Ignorar paquetes NuGet descargados (en formato packages.config)
+packages/
+
+# Ignorar archivos de paquetes NuGet generados por el proyecto
+*.nupkg
+*.snupkg
+*.appx
+
+# Ignorar archivos temporales
+*.suo
+*.user
+*.[tj]mp
+*.[Cc]ache
+[Dd]ebug/
+[Release]/
+*.log
+
+# Ignorar ejecutables y bibliotecas generadas
+*.exe
+*.dll
+*.pdb
+*.vshost.exe
+*.vshost.dll
+*.tlog
+# Reportes de actualización
+_UpgradeReport_Files/
+
+# Ignorar archivos de base de datos local o temporal
+*.sqlite
+*.db
+
+# Ignorar archivos de configuración de secretos locales (¡IMPORTANTE!)
+appsettings.Development.json
+.env
